@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     result = ""
-    array.each.with_index{|element, index| result += "#{index+1}. #{element} "}
+    array.each.with_index{|element, index| result += "#{index+1}. #{index} "}
   puts "The line is currently: " + result.strip
   end
 end
