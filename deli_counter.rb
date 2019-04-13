@@ -26,9 +26,9 @@ end
 now_serving(katz_deli)
 puts
 
-def take_a_number(array, element)
-array.push(element)
-puts "Welcome, #{element}. You are number #{array.length} in line."
+def take_a_number(array)
+array.push
+puts "Welcome, #{array[-1]}. You are number #{array.length} in line."
 end
 
 take_a_number(katz_deli, "Hayat")
